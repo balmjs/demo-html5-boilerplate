@@ -1,7 +1,7 @@
 var balm = require('balm');
 
 balm.config = {
-  project: 'static',
+  static: true,
   roots: {
     app: 'app'
   },
