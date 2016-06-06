@@ -1,0 +1,24 @@
+{
+  "name": "balm-html",
+  "version": "1.0.0",
+  "description": "The balm demo for html project",
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balmjs/balm-html.git"
+  },
+  "keywords": [],
+  "author": "Elf-mousE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balmjs/balm-html/issues"
+  },
+  "homepage": "https://github.com/balmjs/balm-html#readme",
+  "devDependencies": {
+    "balm": "^0.2.3",
+    "gulp": "^3.9.1"
+  }
+}
