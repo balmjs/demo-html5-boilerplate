@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The balm demo for html project",
   "scripts": {
+    "preinstall": "bower install",
     "dev": "gulp",
     "prod": "gulp --production"
   },
