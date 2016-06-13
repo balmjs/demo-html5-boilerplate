@@ -3,10 +3,10 @@ var balm = require('balm');
 balm.config = {
   static: true,
   roots: {
-    app: 'app'
+    source: 'app'
   },
   paths: {
-    app: {
+    source: {
       css: '/css',
       js: '/js',
       img: '/img'
