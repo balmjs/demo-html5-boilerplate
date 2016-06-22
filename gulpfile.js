@@ -18,6 +18,9 @@ balm.config = {
       'home': './app/js/home.js',
       'about': './app/js/about.js'
     }
+  },
+  sprites: {
+    imgList: ['icon']
   }
 };
 
