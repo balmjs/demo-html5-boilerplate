@@ -1,7 +1,6 @@
 var balm = require('balm');
 
 balm.config = {
-  // cache: true,
   static: true,
   roots: {
     source: 'app'
@@ -15,9 +14,11 @@ balm.config = {
   },
   scripts: {
     entry: {
+      'common' : ['jquery'],
       'home': './app/js/home.js',
       'about': './app/js/about.js'
-    }
+    },
+    vendors: ['common']
   },
   sprites: {
     imgList: ['icon']
