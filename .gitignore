@@ -3,4 +3,3 @@ dist
 .tmp
 bower_components
 app/css/sprites
-app/img/*-sprite.png
