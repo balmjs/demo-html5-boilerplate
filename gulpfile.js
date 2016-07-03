@@ -14,9 +14,9 @@ balm.config = {
   },
   scripts: {
     entry: {
-      'common' : ['jquery'],
-      'home': './app/js/home.js',
-      'about': './app/js/about.js'
+      common : ['jquery'],
+      home: './app/js/home.js',
+      about: './app/js/about.js'
     },
     vendors: ['common']
   },
