@@ -21,7 +21,7 @@ balm.config = {
     vendors: ['common']
   },
   sprites: {
-    imgList: ['icon']
+    image: ['icon']
   }
 };
 
