@@ -12,9 +12,12 @@ balm.config = {
       img: 'img'
     }
   },
+  styles: {
+    ext: 'scss'
+  },
   scripts: {
     entry: {
-      common : ['jquery'],
+      common: ['jquery'],
       home: './app/js/home.js',
       about: './app/js/about.js'
     },
