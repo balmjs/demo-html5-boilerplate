@@ -1,5 +1,6 @@
 node_modules
 dist
+assets
 .tmp
 bower_components
 app/css/sprites
