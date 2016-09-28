@@ -1,12 +1,13 @@
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background: image-url("background-image.png");
+  background-image: url("../images/background-image.png");
   background-position: right;
   background-size: none;
   display: flex;
   justify-content: center;
   min-height: 25em;
+  margin-bottom: 2em;
   padding: 2em;
 
   @include media($large-screen) {

@@ -27,7 +27,6 @@ header.navigation {
 
   .navigation-wrapper {
     @include clearfix;
-    @include outer-container;//($refills-max-width);
     position: relative;
     z-index: 9999;
   }
@@ -44,8 +43,7 @@ header.navigation {
     }
   }
 
-
-// Mobile view
+  // Mobile view
 
   .navigation-menu-button {
     color: $navigation-color;
@@ -67,8 +65,7 @@ header.navigation {
     }
   }
 
-
-// Nav menu
+  // Nav menu
 
   nav {
     float: none;
@@ -100,8 +97,7 @@ header.navigation {
     }
   }
 
-
-// The nav items
+  // The nav items
 
   ul li.nav-link {
     background: $navigation-background;
@@ -142,8 +138,7 @@ header.navigation {
     padding-bottom: 3px;
   }
 
-
-// Sub menus
+  // Sub menus
 
   li.more.nav-link {
     padding-right: 0;
@@ -272,8 +267,7 @@ header.navigation {
     }
   }
 
-
-// Elements on the far right
+  // Elements on the far right
 
   .navigation-tools {
     background: #505050;
@@ -288,8 +282,7 @@ header.navigation {
     }
   }
 
-
-// Search bar
+  // Search bar
 
   .search-bar {
     $search-bar-border-color: $base-border-color;

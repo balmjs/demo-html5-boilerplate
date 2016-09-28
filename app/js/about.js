@@ -3,11 +3,12 @@ import './components/navigation';
 import $ from 'jquery';
 
 if (DEBUG) {
-  console.log('about');
+  console.log('about page');
 }
 
 function showWidth() {
   let width = $(window).width();
+  let height = $(window).height();
   console.log(width);
 }
 

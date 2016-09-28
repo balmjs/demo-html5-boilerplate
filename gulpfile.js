@@ -8,7 +8,7 @@ balm.config = {
     source: {
       css: 'css',
       js: 'js',
-      img: 'img'
+      img: 'images'
     }
   },
   styles: {
@@ -16,14 +16,9 @@ balm.config = {
   },
   scripts: {
     entry: {
-      common: ['jquery'],
       home: './app/js/home.js',
       about: './app/js/about.js'
-    },
-    vendors: ['common']
-  },
-  sprites: {
-    image: ['icon']
+    }
   }
 };
 

@@ -2,18 +2,9 @@
   "name": "balm-html",
   "private": true,
   "dependencies": {
+    "normalize-css": "^4.2.0",
     "bourbon": "^4.2.7",
     "neat": "^1.8.0",
-    "font-awesome": "^4.6.3",
     "jquery": "^3.0.0"
-  },
-  "overrides": {
-    "font-awesome": {
-      "main": [
-        "fonts/*",
-        "less/font-awesome.less",
-        "scss/font-awesome.scss"
-      ]
-    }
   }
 }

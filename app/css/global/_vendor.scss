@@ -1,7 +1,5 @@
-$fa-font-path: '../fonts';
-
+@import "../../../bower_components/normalize-css/normalize.css";
 // bower:scss
 @import "bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
 @import "bower_components/neat/app/assets/stylesheets/_neat.scss";
-@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
