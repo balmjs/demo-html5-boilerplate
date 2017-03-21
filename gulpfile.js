@@ -16,8 +16,8 @@ balm.config = {
   },
   scripts: {
     entry: {
-      home: './app/js/home.js',
-      about: './app/js/about.js'
+      home: './app/js/home',
+      about: './app/js/about'
     }
   }
 };
