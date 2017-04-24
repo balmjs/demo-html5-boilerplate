@@ -6,8 +6,8 @@ balm.config = {
   },
   paths: {
     source: {
-      css: 'css',
-      js: 'js',
+      css: 'styles',
+      js: 'scripts',
       img: 'images'
     }
   },
@@ -16,8 +16,8 @@ balm.config = {
   },
   scripts: {
     entry: {
-      home: './app/js/home',
-      about: './app/js/about'
+      home: './app/scripts/home',
+      about: './app/scripts/about'
     }
   }
 };
