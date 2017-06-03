@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/balmjs/balm-html#readme",
   "devDependencies": {
-    "balm": "^0.6.0-beta.5",
+    "balm": "^0.6.1",
     "gulp": "^3.9.1"
   }
 }
