@@ -11,15 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/balmjs/balm-html.git"
   },
-  "keywords": [],
   "author": "Elf-mousE",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/balmjs/balm-html/issues"
   },
-  "homepage": "https://github.com/balmjs/balm-html#readme",
   "devDependencies": {
-    "balm": "^0.6.1",
+    "balm": "^0.15.2",
     "gulp": "^3.9.1"
   }
 }
