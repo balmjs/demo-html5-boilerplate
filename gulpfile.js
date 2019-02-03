@@ -1,4 +1,4 @@
-var balm = require('balm');
+const balm = require('balm');
 
 balm.config = {
   roots: {

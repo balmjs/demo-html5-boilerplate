@@ -17,8 +17,8 @@
     "url": "https://github.com/balmjs/balm-html/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "balm": "^0.22.0",
-    "gulp": "^3.9.1"
+    "babel-eslint": "^10.0.0",
+    "balm": "^1.0.0",
+    "gulp": "^4.0.0"
   }
 }
