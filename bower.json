@@ -1,9 +1,0 @@
-{
-  "name": "balm-demo-html",
-  "private": true,
-  "dependencies": {
-    "bourbon": "^4.3.4",
-    "neat": "^1.8.0",
-    "jquery": "^3.0.0"
-  }
-}

@@ -1,4 +1,4 @@
-## BalmJS demo - HTML
+# BalmJS demo - HTML
 
 ```sh
 yarn install
@@ -6,10 +6,14 @@ yarn install
 npm install
 
 # For development
+yarn run dev
+# OR
 npm run dev
 
 # For production
+yarn run prod
+# OR
 npm run prod
 ```
 
-__enjoy it__
+**Enjoy** :ghost:

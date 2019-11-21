@@ -1,9 +1,8 @@
 {
   "name": "balm-demo-html",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The balm demo for html project",
   "scripts": {
-    "preinstall": "bower install",
     "dev": "gulp",
     "prod": "gulp --production"
   },
@@ -17,8 +16,11 @@
     "url": "https://github.com/balmjs/balm-html/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.0",
-    "balm": "^1.5.1",
+    "babel-eslint": "^10.0.3",
+    "balm": "^2.0.2",
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }
