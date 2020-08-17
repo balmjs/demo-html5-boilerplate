@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "jquery": "1.12",
+    "jquery": "3.5",
     "jquery-migrate": "^1.4.1",
     "normalize.css": "3.0.3"
   },
