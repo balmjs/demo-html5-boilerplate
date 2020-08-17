@@ -1,6 +1,14 @@
 # BalmJS demo - HTML
 
-## Installing Balm
+## Requirements
+
+```sh
+yarn global add balm-core
+# OR
+npm install -g balm-core
+```
+
+Installation
 
 ```sh
 yarn install
@@ -8,20 +16,12 @@ yarn install
 npm install
 ```
 
-## :ghost: Enjoy
-
-For development
+## Enjoy
 
 ```sh
-yarn run dev
-# OR
+# For development
 npm run dev
-```
 
-For production
-
-```sh
-yarn run prod
-# OR
+# For production
 npm run prod
 ```
