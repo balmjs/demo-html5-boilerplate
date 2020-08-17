@@ -1,10 +1,10 @@
 {
   "name": "balm-demo-html",
-  "version": "2.0.0",
+  "version": "5.0.0",
   "description": "The balm demo for html project",
   "scripts": {
-    "dev": "gulp",
-    "prod": "gulp --production"
+    "dev": "balm",
+    "prod": "balm -p"
   },
   "repository": {
     "type": "git",
@@ -15,12 +15,15 @@
   "bugs": {
     "url": "https://github.com/balmjs/balm-html/issues"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "balm": "^2.0.2",
-    "gulp": "^4.0.2"
-  },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "core-js": "^3.6.5",
+    "jquery": "1.12",
+    "jquery-migrate": "^1.4.1",
+    "normalize.css": "3.0.3"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.11.2",
+    "babel-eslint": "^10.0.0",
+    "balm": "^3.0.0-beta.14"
   }
 }
