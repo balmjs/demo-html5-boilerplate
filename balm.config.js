@@ -11,7 +11,6 @@ module.exports = {
     },
     alias: {
       '@': path.resolve(__dirname, 'app/scripts')
-    },
-    ie8: true
+    }
   }
 };
