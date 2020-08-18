@@ -6,7 +6,6 @@ module.exports = {
   },
   scripts: {
     entry: {
-      lib: ['jquery'],
       main: './app/scripts/main.js'
     },
     alias: {

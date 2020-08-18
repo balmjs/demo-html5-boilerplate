@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 // Avoid `console` errors in browsers that lack a console.
 (function () {
   var method;
@@ -44,4 +42,3 @@ import $ from 'jquery';
 })();
 
 // Place any jQuery/helper plugins in here.
-console.log(`jQuery: ${$}`);
