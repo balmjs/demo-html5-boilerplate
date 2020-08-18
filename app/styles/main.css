@@ -1,3 +1,5 @@
+@import './_vendor.css';
+
 /*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -97,8 +99,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-@import './_vendor.css';
 
 /* ==========================================================================
    Helper classes
