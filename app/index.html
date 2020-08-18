@@ -3,20 +3,21 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Hello BalmJS</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/styles/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
+  <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
@@ -25,18 +26,15 @@
 
   <!-- `modernizr.js`: for development -->
   <!-- <script src="%PUBLIC_URL%/js/modernizr.js"></script> -->
-  <!-- build:js js/vendor.js -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <!-- endbuild -->
-  <script src="%PUBLIC_URL%/js/main.js"></script>
+  <script src="%PUBLIC_URL%/scripts/vendor/lib.js"></script>
+  <script src="%PUBLIC_URL%/scripts/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <!-- <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
 </body>
 
 </html>

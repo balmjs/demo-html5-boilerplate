@@ -6,7 +6,7 @@ module.exports = {
   },
   scripts: {
     entry: {
-      polyfill: './app/scripts/polyfill.js',
+      lib: ['jquery'],
       main: './app/scripts/main.js'
     },
     alias: {
