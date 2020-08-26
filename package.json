@@ -1,19 +1,8 @@
 {
-  "name": "balm-demo-html",
-  "version": "8.0.0",
-  "description": "The balm demo for html project",
+  "private": true,
   "scripts": {
     "dev": "balm",
     "prod": "balm -p"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/balmjs/balm-html.git"
-  },
-  "author": "Elf-mousE",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/balmjs/balm-html/issues"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -22,6 +11,6 @@
   "devDependencies": {
     "@babel/runtime-corejs3": "^7.11.0",
     "babel-eslint": "^10.0.0",
-    "balm": "^3.0.0-beta.15"
+    "balm": "^3.0.0-rc.2"
   }
 }
