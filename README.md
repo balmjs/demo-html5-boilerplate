@@ -8,7 +8,7 @@ yarn global add balm-core
 npm install -g balm-core
 ```
 
-Installation
+## Installation
 
 ```sh
 yarn install
